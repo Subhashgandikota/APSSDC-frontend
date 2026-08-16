@@ -71,7 +71,7 @@ export default function HomePage({ students, notices, setCurrentView, setSelecte
           </h1>
 
           <p className="text-blue-100 text-sm sm:text-lg max-w-2xl mx-auto font-medium">
-            Manage • View • Download Semester Results
+            Manage &amp; Publish Results
           </p>
 
           {/* Clean Quick Result Search Box */}
@@ -79,15 +79,15 @@ export default function HomePage({ students, notices, setCurrentView, setSelecte
             <div className="flex items-center justify-between border-b border-slate-100 pb-4 mb-5">
               <h2 className="text-base font-bold text-slate-900 flex items-center gap-2">
                 <IconSearch className="w-5 h-5 text-blue-600" />
-                Quick Search Result
+                Check Results Instantly
               </h2>
-              <span className="text-xs text-slate-500">No login required to view</span>
+              <span className="text-xs text-slate-500">No login required</span>
             </div>
 
             <form onSubmit={handleSearch} className="space-y-4">
               <div>
                 <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider mb-2">
-                  Enter Roll Number
+                  Enter Roll Number (e.g. 24CSE101)
                 </label>
                 <div className="relative">
                   <input
@@ -323,7 +323,7 @@ export default function HomePage({ students, notices, setCurrentView, setSelecte
               </p>
             </div>
             <div className="pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-blue-600">
-              <span>Go to Student Portal</span>
+              <span>Access your Cloud dashboard</span>
               <IconChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </div>
           </div>
@@ -345,7 +345,7 @@ export default function HomePage({ students, notices, setCurrentView, setSelecte
               </p>
             </div>
             <div className="pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-emerald-600">
-              <span>Go to Faculty Portal</span>
+              <span>Access your Cloud dashboard</span>
               <IconChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </div>
           </div>
@@ -367,7 +367,7 @@ export default function HomePage({ students, notices, setCurrentView, setSelecte
               </p>
             </div>
             <div className="pt-4 border-t border-slate-100 flex items-center justify-between text-xs font-bold text-purple-600">
-              <span>Go to Admin Dashboard</span>
+              <span>Go to Dashboard</span>
               <IconChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
             </div>
           </div>

@@ -53,7 +53,9 @@ export default function Footer({ setCurrentView }) {
         <div className="border-t border-slate-800 pt-6 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500 gap-4">
           <p>© {new Date().getFullYear()} Student Result Management System. All rights reserved.</p>
           <div className="flex gap-4">
-            <span className="text-slate-400">Manage • View • Download Results</span>
+            <span className="text-slate-400 italic text-center text-xs max-w-xl">
+              "Your academic journey is more than marks and grades—it's about learning, growth, challenges, and achievements. Stay connected, stay organized, and move toward a brighter future"
+            </span>
           </div>
         </div>
       </div>

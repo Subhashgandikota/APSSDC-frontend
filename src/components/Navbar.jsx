@@ -68,10 +68,9 @@ export default function Navbar({ currentUser, setCurrentUser, currentView, setCu
               <IconGraduationCap className="w-6 h-6" />
             </div>
             <div>
-              <span className="font-heading font-extrabold text-lg text-slate-900 tracking-tight flex items-center gap-1.5">
-                SRMS <span className="text-xs bg-blue-100 text-blue-800 font-semibold px-2 py-0.5 rounded-full">v2.5</span>
+              <span className="font-heading font-extrabold text-lg text-slate-900 tracking-tight">
+                SRMS
               </span>
-              <span className="block text-xs text-slate-500 font-medium">Student Result Portal</span>
             </div>
           </div>
 
